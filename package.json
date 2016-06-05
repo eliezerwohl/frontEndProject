@@ -1,0 +1,22 @@
+{
+  "name": "frontendproject",
+  "version": "1.0.0",
+  "description": "Making a front end project.  Going to have lots of fancy animations, fadeins, and background effects.  Unsure of what to base it on just yet.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliezerwohl/frontEndProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliezerwohl/frontEndProject/issues"
+  },
+  "homepage": "https://github.com/eliezerwohl/frontEndProject#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
