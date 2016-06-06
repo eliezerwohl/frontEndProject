@@ -9,8 +9,17 @@
 	<title></title>
 </head>
 <body ng-app="app">
-Herro
-{{2+2}}
+<div class="title">
+<h2 id="welcome"> welcome to my front end project </h2>
+	<h4>I'm not sure what its about yet </h4>
+</div>
+	<div class="container-fluid">
+	<!-- <li><a ui-sref="index">Web Coding</a></li> -->
+	 		<div ui-view autoscroll="false"></div>
+	 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
 <script src="/assets/javascript/app.js"></script>
+<script src="/assets/javascript/controllers/home.js"></script>
 </body>
 </html>
