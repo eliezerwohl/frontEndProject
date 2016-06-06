@@ -5,11 +5,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 	<title></title>
 </head>
 <body ng-app="app">
-Herro
-{{2+2}}
+	<div class="container-fluid">
+	<!-- <li><a ui-sref="index">Web Coding</a></li> -->
+	 		<div ui-view autoscroll="false"></div>
+	 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
 <script src="/assets/javascript/app.js"></script>
+<script src="/assets/javascript/controllers/home.js"></script>
 </body>
 </html>
