@@ -1,18 +1,30 @@
 .navbar{
 	background-color: black
 }
+
+
+
+h2, h1{
+  color:white;
+  
+}
+
+#frankLogo {
+  color:#F765B8;
+}
 body{
-	background-color: black
-	/* background-image: 
+
+	background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
- url("../img/beach.jpg");*/
+ url("../img/beach.jpg");
 }
 
 .jumbotron{
-	background-color: black
+     background: rgba(25, 25, 25, .5);
+    color: white;
 }
 .title {
 
