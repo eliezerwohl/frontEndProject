@@ -1,9 +1,9 @@
 var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 8080;
+var expressHandlebars = require('express-handlebars'); 
 
 var logger = require("morgan");
-var mongoose = require("mongoose");
 var bodyParser = require("body-parser")
 
 app.use(logger('dev'));
@@ -13,7 +13,16 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-mongoose.connect(process.env.MONGOLAB_URI || process.env.MONGODB_URI ||'mongodb://localhost/survey');
+app.use(express.static(__dirname + '/public/views'));
+app.engine('handlebars', expressHandlebars({
+  defaultLayout: 'main'
+}));
+app.set('view engine', 'handlebars');
+var hbs = require('express-handlebars').create();
+hbs.getPartials().then(function(partials) {
+  console.log(partials);
+});
+
 
 require('./routes')(app);
 
