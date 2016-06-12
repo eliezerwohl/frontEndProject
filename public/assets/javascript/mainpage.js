@@ -32,16 +32,9 @@ var printLogo = setInterval(print,75);
 
 
 	
+$("a").on("click", function(){
+	// $("a").removeClass("selected")
+	// $(this).addClass("selected")
 
-// var time = 2000
-// for (var i = 0; i < logo.length; i++) {
 
-// 	time += 2000	
-// var write = function(){
-// 	debugger
-//  $("#frankLogo").append(logo[i])
-// }
-
-// setTimeout(write, time);
-	
-// }
+})

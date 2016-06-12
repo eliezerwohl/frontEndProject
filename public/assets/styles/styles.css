@@ -34,10 +34,12 @@ body{
  url("../img/beach.jpg");
 }
 
+
 .jumbotron{
     background: rgba(25, 25, 25, .5);
     color: white;
-    min-height: 330px
+    min-height: 330px;
+    margin-top:50px;
 }
 .title {
 
