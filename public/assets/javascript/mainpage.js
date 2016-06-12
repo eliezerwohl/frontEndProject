@@ -1,5 +1,7 @@
 var logo = ["F", "r", "a", "n", "k", "'", "s", " ", "M", "o", "m"]
+setTimeout(fancyFade, 1000);
 
+function fancyFade(){
 var i = 0
 function print(){
 	 $("#frankLogo").append(logo[i])
@@ -8,7 +10,8 @@ function print(){
 	 clearInterval(printLogo)
 	}
 }
-var printLogo = setInterval(print,100);
+var printLogo = setInterval(print,75);
+}
 
 
 	
