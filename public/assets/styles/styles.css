@@ -20,11 +20,15 @@ h2, h1{
 }
 
 
+.hideIt{
+  display: none
+}
 
-#logo { 
+#logo, .pink { 
   font-family: 'Audiowide', cursive;
   color:#F765B8;
 }
+
 body{
 	background-image: 
     linear-gradient(
