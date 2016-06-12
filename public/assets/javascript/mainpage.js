@@ -3,7 +3,29 @@ var logo = ["L", "i", "b", "e", "r", "t", "y", " ", "V", "i", "c", "e"]
 setTimeout(fancyFade, 1000);
 navigation()
 
+// $("#guitar").on("mouseover", function(){
+// 	$("#guitar").flip(); 
+// })
+// $(function($) {
+//   $(".card-grid").flip(); 
+// });
 
+$("#guitar").flip({
+  axis: 'x',
+  trigger: 'hover'
+});
+$("#bass").flip({
+  axis: 'x',
+  trigger: 'hover'
+});
+$("#keys").flip({
+  axis: 'x',
+  trigger: 'hover'
+});
+$("#drums").flip({
+  axis: 'x',
+  trigger: 'hover'
+});
 
 function navigation(){
 
