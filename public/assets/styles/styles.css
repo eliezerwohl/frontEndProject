@@ -1,6 +1,20 @@
+.navbar{
+	background-color: black
+}
 
+
+
+h2, h1{
+  color:white;
+  
+}
+
+#frankLogo {
+  color:#F765B8;
+}
 body{
-	 background-image: 
+
+	background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -8,6 +22,10 @@ body{
  url("../img/beach.jpg");
 }
 
+.jumbotron{
+     background: rgba(25, 25, 25, .5);
+    color: white;
+}
 .title {
 
   position: absolute;
@@ -18,20 +36,25 @@ body{
   text-align: center;
 }
 
-#welcome{
-	font-size: 2em
+p{
+	font-size: 1.5em;
+	color:white;
 }
 
+
+.customPanel{
+	background-color: red
+}
 .right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
-@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
-@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@-webkit-keyframes animateright{from{right:-200px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-200px;opacity:0} to{right:0;opacity:1}}
 .fadeIn{-webkit-animation:opac 1.5s;animation:opac 1.5s}
 @-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
 @keyframes opac{from{opacity:0} to{opacity:1}}
 
 .left{position:relative;-webkit-animation:animateleft 0.4s;animation:animateleft 0.4s}
-@-webkit-keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
-@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@-webkit-keyframes animateleft{from{left:-200px;opacity:0} to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-200px;opacity:0} to{left:0;opacity:1}}
 
 .bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s}
 @-webkit-keyframes animatebottom{from{bottom:-200px;opacity:0} to{bottom:0px;opacity:1}}
