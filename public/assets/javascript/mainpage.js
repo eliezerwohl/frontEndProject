@@ -1,14 +1,54 @@
 // $("navLogo").hide();
 var logo = ["L", "i", "b", "e", "r", "t", "y", " ", "V", "i", "c", "e"]
 setTimeout(fancyFade, 1000);
+navigation()
 
-$("#demos").on("click", function(){
-	$(".section").fadeOut()
-	setTimeout(demoGo, 500)
-	function demoGo(){
-	$("#demosSection").fadeIn()
-	}
-})
+
+
+function navigation(){
+
+$("li").on("click", function(){
+	$('li').off()
+	$(".section").fadeOut(200)
+	var id = $(this).data("id")
+	navbar(id)
+	});
+}
+
+
+
+function navbar(id){
+	setTimeout(navAnimation, 575)
+	function navAnimation(){
+		$("#" + id).fadeIn()
+		navigation()
+	}		
+}
+
+// $("#demos").on("click", function(){
+// 	setTimeout(demoGo, 500)
+// 	function demoGo(){
+// 	$("#demosSection").fadeIn()
+// 	}
+// })
+// $("#bandHistory").on("click", function(){
+// 	setTimeout(demoGo, 500)
+// 	function demoGo(){
+// 	$("#bandHistorySection").fadeIn()
+// 	}
+// })
+// $("#members").on("click", function(){
+// 	setTimeout(demoGo, 500)
+// 	function demoGo(){
+// 	$("#membersSection").fadeIn()
+// 	}
+// })
+// $("#contactUs").on("click", function(){
+// 	setTimeout(demoGo, 500)
+// 	function demoGo(){
+// 	$("#contactUsSection").fadeIn()
+// 	}
+// })
 
 function fancyFade(){
 
