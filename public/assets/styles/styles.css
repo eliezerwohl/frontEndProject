@@ -9,6 +9,9 @@ h2, h1{
   
 }
 
+.navbar{
+  color:#27FDF5;
+}
 #frankLogo {
   color:#F765B8;
 }
@@ -23,8 +26,10 @@ body{
 }
 
 .jumbotron{
+  ;
      background: rgba(25, 25, 25, .5);
     color: white;
+    min-height: 330px
 }
 .title {
 
