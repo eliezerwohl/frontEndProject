@@ -57,27 +57,24 @@ body{
 }
 
 p{
-	font-size: 1.5em;
+
 	color:white;
+}
+
+.customPanel{
+  border:2px;
 }
 
 .navbar-default .navbar-nav>li>a{
   color:#A8F6F8;
 }
 
-.customPanel{
-	background-color: red
+
+
+.name{
+  color:#F98DC9;
 }
 
-#topJumbo{
-  margin-bottom: 0px
-  padding-top:0px;
-}
-
-.bottomJumbo{
-  margin-top: 0px
-  padding-top:0px;
-}
 .right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
 @-webkit-keyframes animateright{from{right:-200px;opacity:0} to{right:0;opacity:1}}
 @keyframes animateright{from{right:-200px;opacity:0} to{right:0;opacity:1}}
@@ -92,62 +89,3 @@ p{
 .bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s}
 @-webkit-keyframes animatebottom{from{bottom:-200px;opacity:0} to{bottom:0px;opacity:1}}
 @keyframes animatebottom{from{bottom:-200px;opacity:0} to{bottom:0;opacity:1}}
-
-.card {
-  width: 100%;
-  height: 300px;
-}
-
-.card-grid {
-  width: 440px;
-  height: 250px;
-  margin: 20px;
-  display: inline-block;
-}
-
-.card-grid .front, .card-grid .back {
-  padding: 10px;
-  text-align: center;
-  border: 1px #333 solid;
-}
-
-.card-grid .front {
-  background-color: #eee;
-}
-
-.card-grid .back {
-  background-color: #333;
-  color: white;
-}
-
-.card .front{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.card .back{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 200;
-  background-color: #eee;
-}
-
-.download{
-  background-color: #252525;
-  padding: 20px;
-}
-
-.card img{
-  width: 100%;
-  height: 100%;
-}
-.card > .back{
-  word-wrap: break-word;
-}
-.margin-top{
-  margin-top: 10px;
-}
-.table-wrapper{
-  overflow-x: scroll; 
-}
