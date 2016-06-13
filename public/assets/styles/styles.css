@@ -29,6 +29,13 @@ h2, h1{
   color:#F765B8;
 }
 
+.pinkButton{
+  font-family: 'Audiowide', cursive;
+  color:#F765B8;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
 .pink{
   margin-top: 0px;
 }
@@ -61,6 +68,9 @@ h2, h1{
 
 }
 
+#contactUsSection{
+  min-height: 450px
+}
 #membersSection{
   margin-top: 20px;
   margin-bottom:0px;
@@ -74,7 +84,7 @@ h2, h1{
 
 #bandHistorySection{
   min-height: 400px;
-  margin-top: 20px;
+
   margin-bottom:20px;
 
 }
@@ -393,7 +403,7 @@ p{
 
 .wrap {
   width: 500px;
-  height: 350px;
+  height: 250px;
   margin: 0 auto;
   position: relative;
 }
