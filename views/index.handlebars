@@ -8,23 +8,14 @@
 	</div>
 	<div class="col-md-12 section hideIt" id="demosSection">
 		<div class="col-md-offset-1" id="grid-containter">
-			<div id="guitar" class="col-sm-4 card-grid">
-				<div class="front">
-					<h3>Guitar</h3></div>
-				<div class="back">Back</div>
-			</div>
-			<div id="bass" class="col-sm-4 card-grid">
-				<div class="front">Bass</div>
-				<div class="back">Back</div>
-			</div>
-			<div id="keys" class="col-sm-4 card-grid">
-				<div class="front">Keys</div>
-				<div class="back">Back</div>
-			</div>
-			<div id="drums" class="col-sm-4 card-grid">
-				<div class="front">Drums</div>
-				<div class="back">Back</div>
-			</div>
+				<audio id="myTune">
+	
+		  <source src="/assets/music/niceDayInsideBeta.mp3">
+		</audio>
+		 
+		<button onclick="document.getElementById('myTune').play()">Play Music</button>
+		<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
+		<button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>
 		</div>
 	</div>
 	<div class="section hideIt jumbotron" id="bandHistorySection">
@@ -39,23 +30,23 @@
 		<div class="row">
 		<div class="col-md-6">
 			<h3 class="name">Hank DeHanko </h3>
-			<h4>Keys </h4>
+			<h4 class="instrument">Keys </h4>
 			<p>The only member of the group with any musical training, Hank spends his time playing making strange and terrible noises on a his various synthesizers. </p>
 		</div>
 		<div class="col-md-6">
 			<h3 class="name">Dynamite Lee </h3>
-			<h4>Bass</h4>
+			<h4 class="instrument">Bass</h4>
 			<p>Unable to learn a real instrument, Dynamite has played bass for many years. His bass of choice is a Rickenbacker 4003.</p>
 		</div>
 		</div>
 		<div class="col-md-6">
 			<h3 class="name">Randy Lahey </h3>
-			<h4>Guitar </h4>
+			<h4 class="instrument">Guitar </h4>
 			<p>Writer of all the band’s material. Uses a Fender Strat. Idolizes Johnny Ramone.</p>
 		</div>
 		<div class="col-md-6">
 			<h3 class="name">Joey Spaggetti </h3>
-			<h4>Drums </h4>
+			<h4 class="instrument">Drums </h4>
 			<p>Hailing from Canada, Joey likes to play drums so much, he often programs them for recording purposes so he can spend more time jamming to Iron Maiden and Rush.
 			</p>
 		</div>

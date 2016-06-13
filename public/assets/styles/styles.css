@@ -59,6 +59,10 @@ body{
   
 }
 
+.instrument{
+  color:#D7FFFE;
+}
+
 #bandHistorySection{
   min-height: 400px;
   margin-top: 20px;
