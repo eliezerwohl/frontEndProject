@@ -7,16 +7,15 @@
 		</h1>
 	</div>
 	<div class="col-md-12 section hideIt" id="demosSection">
-		<div class="col-md-offset-1" id="grid-containter">
-				<audio id="myTune">
-	
+		<audio id="myTune">
 		  <source src="/assets/music/niceDayInsideBeta.mp3">
 		</audio>
-		 
-		<button onclick="document.getElementById('myTune').play()">Play Music</button>
-		<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
-		<button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>
-		</div>
+		<button class="btn btn-lg btn-default" onclick="document.getElementById('myTune').play()"><span class="glyphicon glyphicon-play"> </button>
+		<button class="btn btn-lg btn-default" onclick="document.getElementById('myTune').pause()"><span class="
+glyphicon glyphicon-pause"> </button>
+		<button  class="btn btn-lg btn-default" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;"><span class="
+glyphicon glyphicon-stop"></button>
+		
 	</div>
 	<div class="section hideIt jumbotron" id="bandHistorySection">
 		<h2 class="text-center pink">Band History</h2>
