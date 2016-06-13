@@ -29,6 +29,10 @@ h2, h1{
   color:#F765B8;
 }
 
+.pink{
+  margin-top: 0px;
+}
+
 
 body{
 	background-image: 
@@ -45,6 +49,21 @@ body{
     color: white;
     min-height: 330px;
     margin-top:50px;
+
+}
+
+#membersSection{
+  margin-top: 20px;
+  margin-bottom:0px;
+  padding-top: 20px
+  
+}
+
+#bandHistorySection{
+  min-height: 400px;
+  margin-top: 20px;
+  margin-bottom:20px;
+
 }
 .title {
 
@@ -57,9 +76,9 @@ body{
 }
 
 p{
-
 	color:white;
 }
+
 
 .customPanel{
   border:2px;
