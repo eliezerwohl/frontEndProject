@@ -11,7 +11,7 @@
 		<audio id="myTune">
 			  <source src="/assets/music/niceDayInsideBeta.mp3">
 			</audio>
-		<div class="wrap">
+		<div class="wrap hidden-xs ">
 			<div class="boombox">
 				<div class="handle"></div>
 				<div class="body">
@@ -37,6 +37,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="visible-xs">
+		<button class="btn btn-block btn-default" onclick="document.getElementById('myTune').play()"><span class="glyphicon glyphicon-play"> </button>
+						<button class="btn  btn-block btn-default" onclick="document.getElementById('myTune').pause()"><span class="
+	glyphicon glyphicon-pause"> </button>
+						<button class="btn btn-md btn-block  btn-default" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;"><span class="
+	glyphicon glyphicon-stop"></button>
+	</div>
 	</div>
 	<div class="section hideIt jumbotron" id="bandHistorySection">
 		<h2 class="text-center pink">Band History</h2>
