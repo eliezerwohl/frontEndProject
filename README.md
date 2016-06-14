@@ -1,3 +1,3 @@
-# frontEndProject
+# Liberty Vice
 
-Making a front end project.  Going to have lots of fancy animations, fadeins, and background effects.  Unsure of what to base it on just yet.
+Front end focused website for local band.  Frontend:JavaScript/CSS3/jQuery. Backend: Express/Handlebars.js 
